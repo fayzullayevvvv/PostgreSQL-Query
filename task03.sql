@@ -1,0 +1,10 @@
+SELECT * 
+FROM sales
+ORDER BY id ASC
+LIMIT 5;
+
+
+SELECT * 
+FROM sales
+ORDER BY id
+LIMIT 5 OFFSET 5;
